@@ -2,8 +2,8 @@
 const siteMetadata = {
     title: 'Amaan Bhati Blog',
     author: 'Amaan Bhati',
-    headerTitle: 'Next.js Blog',
-    description: 'A blog created with Next.js, Tailwind.css and contentlayer.',
+    headerTitle: 'Amaan Bhati Blog: Powered by Next.js',
+    description: 'Amaan Bhati blog site built and crafted on top of Nextjs. This is where I post blogs majorly based on my experiences and interests in tech. Unleash your potential with practical insights, best practices, and productivity hacks, explore my blog site!',
     language: 'en-us',
     theme: 'system', // system, dark or light
     siteUrl: 'https://blog-app-j73j.vercel.app/', // your website URL
