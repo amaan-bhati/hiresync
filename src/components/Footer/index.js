@@ -15,14 +15,14 @@ const Footer = () => {
   console.log(errors);
 
   return (
-    <footer className="mt-16 rounded-2xl bg-dark dark:bg-accentDark/90 m-2 sm:m-10 flex flex-col items-center text-light dark:text-dark">
-      <div className="w-full  mt-16 md:mt-24 relative font-bold border-t border-solid border-light py-6 px-8 flex  flex-col md:flex-row items-center justify-between">
+    <footer className="mt-10 rounded-2xl bg-dark dark:bg-accentDark/90 m-2 sm:m-10 flex flex-col items-center text-light dark:text-dark">
+      <div className="w-full  mt-6 md:mt-6 relative font-bold border-t border-solid border-light py-6 px-8 flex  flex-col md:flex-row items-center justify-between">
         <span className="text-center">
           &copy;2024 <a href="https://amaanbhati.tech">amaanbhati.tech</a>. All rights reserved.
         </span>
 
 
-        <div className="text-center underline my-4 md:my-0">
+        <div className="text-center underline my-20 md:my-0">
         <a
           href={siteMetadata.linkedin}
           className="inline-block w-6 h-6 mr-4"

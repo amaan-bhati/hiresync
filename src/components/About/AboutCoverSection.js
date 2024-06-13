@@ -14,15 +14,16 @@ const AboutCoverSection = () => {
         </div>
 
         <div className='w-full md:w-1/2 flex flex-col text-left items-start justify-center px-5 xs:p-10 pb-10 lg:px-16'>
-            <h2 className='font-bold capitalize text-4xl xs:text-5xl sxl:text-6xl  text-center lg:text-left'>
-            Dream Big, Work Hard, Achieve More!
+            <h2 className='font-bold  text-4xl xs:text-5xl sxl:text-6xl  text-center lg:text-left'>
+            More about me at <a href='https://amaanbhati.tech'> amaanbhati.tech </a>
             </h2>
-            <p className='font-medium capitalize mt-4 text-base'>
-            “I think it’s very important to have a feedback loop, where you’re constantly thinking about what you’ve done and how you could be doing it better.”
+            <p className='font-medium mt-4 text-bold'>
+            Constantly striving to improve (as Elon Musk says, “It’s very important to have a feedback loop, where you’re constantly thinking about what you’ve done and how you could be doing it better.” )
             </p>
-            <p className='font-medium capitalize mt-4 text-base'>
-            -Elon Musk
+            <p className='font-medium mt-4 text-base'>
+            Your feedback and suggestions are highly appreciated! They help me refine my content and ensure it delivers the most value to you.
             </p>
+            
         </div>
     </section>
   )
