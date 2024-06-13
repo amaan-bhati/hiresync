@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import profileCharacter from "../../../public/character.png"
+import profileCharacter from "../../../public/img-2.jpg"
 
 const AboutCoverSection = () => {
   return (
@@ -18,7 +18,10 @@ const AboutCoverSection = () => {
             Dream Big, Work Hard, Achieve More!
             </h2>
             <p className='font-medium capitalize mt-4 text-base'>
-            This Mantra Drives My Work As A Passionate Freelancer. I Blend Innovative Technology With Timeless Design For Captivating Digital Experiences. Inspired By Nature And Literature, I'm A Perpetual Learner Embracing Challenges. With Each Project, I Aim To Leave A Lasting Impact—One Pixel At A Time.
+            “I think it’s very important to have a feedback loop, where you’re constantly thinking about what you’ve done and how you could be doing it better.”
+            </p>
+            <p className='font-medium capitalize mt-4 text-base'>
+            -Elon Musk
             </p>
         </div>
     </section>
