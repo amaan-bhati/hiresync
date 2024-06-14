@@ -9,27 +9,23 @@ export default function manifest() {
     //   theme_color: '#fff',
       icons: [
         {
-          // src: '/favicon-32x32.png',
           src: '/logo.png',
-          // sizes: '32x32',
+          sizes: '32x32',
           type: 'image/png',
         },
           {
-          // src: '/favicon-16x16.png',
           src: '/logo.png',
-          // sizes: '16x16',
+          sizes: '16x16',
           type: 'image/png',
         },
             {
-          // src: '/android-chrome-192x192.png',
           src: '/logo.png',
-          // sizes: '192x192',
+          sizes: '192x192',
           type: 'image/png',
         },
             {
-          // src: '/android-chrome-512x512',
           src: '/logo.png',
-          // sizes: '512x512',
+          sizes: '512x512',
           type: 'image/png',
         },
       ],
