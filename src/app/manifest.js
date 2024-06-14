@@ -1,8 +1,8 @@
 export default function manifest() {
     return {
-      name: 'Next.js App',
-      short_name: 'Next.js App',
-      description: 'Next.js App',
+      name: 'Blog By Amaan',
+      short_name: 'Amaan Bhati Blog App',
+      description: 'Blog App coded and crafted on top of Nextjs',
       start_url: '/',
       display: 'standalone',
     //   background_color: '#fff',
