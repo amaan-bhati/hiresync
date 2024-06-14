@@ -6,7 +6,7 @@ const siteMetadata = {
     description: 'Amaan Bhati blog site built and crafted on top of Nextjs. This is where I post blogs majorly based on my experiences and interests in tech. Unleash your potential with practical insights, best practices, and productivity hacks, explore my blog site!',
     language: 'en-us',
     theme: 'system', // system, dark or light
-    siteUrl: 'https://blog-app-j73j.vercel.app/', // your website URL
+    siteUrl: 'https://blog.amaambhati.tech', // your website URL
     siteLogo: '/logo.png',
     socialBanner: '/social-banner.png', // add social banner in the public folder
     email: 'amaanbhati49@gmail.com', 
