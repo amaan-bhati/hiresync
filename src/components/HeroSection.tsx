@@ -18,11 +18,11 @@ export function HeroSection() {
           duration: 0.5,
           ease: [0.4, 0.0, 0.2, 1],
         }}
-        className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
+        className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
       >
         Hiresync simplifies job searching by matching you with the perfect job
         based on your resume. It's a{" "}
-        <Highlight className="text-black dark:text-white">
+        <Highlight className="text-white">
           tailored experience just for you.
         </Highlight>
       </motion.h1>
