@@ -8,14 +8,11 @@ import {
   MotionValue,
 } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
 
 export const HeroParallax = ({
   products,
 }: {
   products: {
-    title: string;
-    link: string;
     thumbnail: string;
   }[];
 }) => {
@@ -74,7 +71,7 @@ export const HeroParallax = ({
             <ProductCard
               product={product}
               translate={translateX}
-              key={product.title}
+              key={product.thumbnail} // Changed from product.title to product.thumbnail
             />
           ))}
         </motion.div>
@@ -83,7 +80,7 @@ export const HeroParallax = ({
             <ProductCard
               product={product}
               translate={translateXReverse}
-              key={product.title}
+              key={product.thumbnail} // Changed from product.title to product.thumbnail
             />
           ))}
         </motion.div>
@@ -92,7 +89,7 @@ export const HeroParallax = ({
             <ProductCard
               product={product}
               translate={translateX}
-              key={product.title}
+              key={product.thumbnail} // Changed from product.title to product.thumbnail
             />
           ))}
         </motion.div>
@@ -119,8 +116,6 @@ export const ProductCard = ({
   translate,
 }: {
   product: {
-    title: string;
-    link: string;
     thumbnail: string;
   };
   translate: MotionValue<number>;
@@ -133,25 +128,17 @@ export const ProductCard = ({
       whileHover={{
         y: -20,
       }}
-      key={product.title}
+      key={product.thumbnail} // Changed from product.title to product.thumbnail
       className="group/product h-96 w-[30rem] relative flex-shrink-0 "
     >
-      <Link
-        href={product.link}
-        className="block group-hover/product:shadow-2xl "
-      >
-        <Image
-          src={product.thumbnail}
-          height="600"
-          width="600"
-          className="object-cover object-left-top absolute h-full w-full inset-0"
-          alt={product.title}
-        />
-      </Link>
+      <Image
+        src={product.thumbnail}
+        height="600"
+        width="600"
+        className="object-cover object-left-top absolute h-full w-full inset-0"
+        alt="Product Image" // Updated alt text to be more generic
+      />
       <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
-      <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">
-        {product.title}
-      </h2>
     </motion.div>
   );
 };

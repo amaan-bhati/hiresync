@@ -7,66 +7,53 @@ export function ParallaxSection() {
 }
 export const products = [
   {
-    title: "",
-    link: "https://hiresync-ten.vercel.app",
+    // link: "https://hiresync-ten.vercel.app",
     thumbnail:
       "/girl-in-tech-svg.svg",
   },
   {
-    title: " ",
-    link: "https://hiresync-ten.vercel.app",
+    // link: "https://hiresync-ten.vercel.app",
     thumbnail:
       "/girl-in-tech-svg.svg",
   },
   {
-    title: "  ",
-    link: "https://hiresync-ten.vercel.app",
+    // link: "https://hiresync-ten.vercel.app",
     thumbnail:
       "/girl-in-tech-svg.svg",
   },
   {
-    title: "   ",
-    link: "https://hiresync-ten.vercel.app",
+    // link: "https://hiresync-ten.vercel.app",
     thumbnail:
       "/girl-in-tech-svg.svg",
   },
   {
-    title: "     ",
-    link: "https://hiresync-ten.vercel.app",
+    // link: "https://hiresync-ten.vercel.app",
     thumbnail:
       "/girl-in-tech-svg.svg",
   },
   {
-    title: "       ",
-    link: "https://hiresync-ten.vercel.app",
+    // link: "https://hiresync-ten.vercel.app",
     thumbnail:
       "/girl-in-tech-svg.svg",
   },
   {
-    title: "         ",
-    link: "https://hiresync-ten.vercel.app",
-    thumbnail:
-      "/girl-in-tech-svg.svg",
-  },
-
-  {
-    title: "           ",
-    link: "https://hiresync-ten.vercel.app",
+    // link: "https://hiresync-ten.vercel.app",
     thumbnail:
       "/girl-in-tech-svg.svg",
   },
   {
-    title: "             ",
-    link: "https://hiresync-ten.vercel.app",
+    // link: "https://hiresync-ten.vercel.app",
     thumbnail:
       "/girl-in-tech-svg.svg",
   },
   {
-    title: "               ",
-    link: "https://hiresync-ten.vercel.app",
+    // link: "https://hiresync-ten.vercel.app",
     thumbnail:
       "/girl-in-tech-svg.svg",
   },
-
- 
+  {
+    // link: "https://hiresync-ten.vercel.app",
+    thumbnail:
+      "/girl-in-tech-svg.svg",
+  },
 ];
