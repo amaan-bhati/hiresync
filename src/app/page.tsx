@@ -1,3 +1,4 @@
+import { AboutSection } from "@/components/AboutSection";
 import { HeroSection } from "@/components/HeroSection";
 import { LampDemo } from "@/components/LampDemo";
 import { ParallaxSection } from "@/components/ParallaxSection";
@@ -10,8 +11,9 @@ export default function Home() {
     <>
       <HeroSection />
       <LampDemo/>
-      <WobbleCardSection/>
+      <AboutSection/>
       <ParallaxSection/>
+      <WobbleCardSection/>
       <SignUpSection />
     </>
   );
