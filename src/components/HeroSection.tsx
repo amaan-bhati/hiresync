@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "./ui/hero-highlight";
-import HyperText from "./ui/hyper-text";
+// import HyperText from "./ui/hyper-text";
 import PulsatingButton from "./ui/pulsating-button";
 import Image from 'next/image'; // Assuming you're using Next.js for image optimization
 import { PlatformsTooltip } from "./PlatformsTooltip";

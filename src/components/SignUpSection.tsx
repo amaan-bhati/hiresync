@@ -1,7 +1,7 @@
 "use client";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
-import { HeroHighlight } from "./ui/hero-highlight";
+// import { HeroHighlight } from "./ui/hero-highlight";
 export function SignUpSection() {
   const words = [
     {
