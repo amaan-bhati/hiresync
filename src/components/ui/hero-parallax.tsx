@@ -54,7 +54,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[400vh] py-80 md:py-60 overflow-hidden bg-black antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[280vh] md:h-[400vh] py-80 md:py-60 overflow-hidden bg-black antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -75,7 +75,7 @@ export const HeroParallax = ({
             />
           ))}
         </motion.div>
-        <motion.div className="flex flex-row  mb-20 space-x-20 ">
+        <motion.div className="flex flex-row  mb-10 space-x-20 ">
           {secondRow.map((product) => (
             <ProductCard
               product={product}
@@ -129,7 +129,7 @@ export const ProductCard = ({
         y: -20,
       }}
       key={product.thumbnail} // Changed from product.title to product.thumbnail
-      className="group/product h-96 w-[30rem] relative flex-shrink-0 "
+      className="group/product h-96 w-[30rem] mb-20 relative flex-shrink-0 "
     >
       <Image
         src={product.thumbnail}
@@ -138,7 +138,7 @@ export const ProductCard = ({
         className="object-cover object-left-top absolute h-full w-full inset-0"
         alt="Product Image" // Updated alt text to be more generic
       />
-      <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
+      {/* <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div> */}
     </motion.div>
   );
 };
