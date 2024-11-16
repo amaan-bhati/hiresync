@@ -40,7 +40,7 @@ const platform = [
   {
     id: 7,
     name: "indeed",
-    image: "/indeed.webp",
+    image: "/indeed.png",
   },
  
 ];
