@@ -1,4 +1,5 @@
 import { AboutSection } from "@/components/AboutSection";
+import { GeminiComponent } from "@/components/GeminiComponent";
 import { HeroSection } from "@/components/HeroSection";
 import { LampDemo } from "@/components/LampDemo";
 import { ParallaxSection } from "@/components/ParallaxSection";
@@ -14,9 +15,12 @@ export default function Home() {
       <LampDemo/>
       <AboutSection/>
       {/* <ProductsTab/> */}
+      <GeminiComponent/>
       <ParallaxSection/>
+     
       <WobbleCardSection/>
       <SignUpSection />
+     
     </>
   );
 }
