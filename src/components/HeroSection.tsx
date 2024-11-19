@@ -5,6 +5,7 @@ import { HeroHighlight, Highlight } from "./ui/hero-highlight";
 import PulsatingButton from "./ui/pulsating-button";
 import Image from 'next/image'; // Assuming you're using Next.js for image optimization
 import { PlatformsTooltip } from "./PlatformsTooltip";
+import Link from "next/link";
 
 export function HeroSection() {
   return (
@@ -39,7 +40,9 @@ export function HeroSection() {
         searching by matching you with the perfect job based on your resume.
         {/* It's a tailored experience just for you. */}
         
-        <PulsatingButton className="mx-auto text-xl mt-6">Cook with HireSync</PulsatingButton>
+        <Link href="https://hiresync.onrender.com/">
+          <PulsatingButton className="mx-auto text-xl mt-6">Cook with HireSync</PulsatingButton>
+        </Link>
       </motion.h1>
       {/* Image for mobile devices only */}
       <div className="mt-0 block md:hidden">
