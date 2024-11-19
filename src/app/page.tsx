@@ -1,6 +1,7 @@
 import { AboutSection } from "@/components/AboutSection";
 import { GeminiComponent } from "@/components/GeminiComponent";
 import { HeroSection } from "@/components/HeroSection";
+import { HeroVideoDialogDemo } from "@/components/HeroVideoDialogDemo";
 import { LampDemo } from "@/components/LampDemo";
 import { ParallaxSection } from "@/components/ParallaxSection";
 // import { ProductsTab } from "@/components/ProductsTab";
@@ -13,6 +14,7 @@ export default function Home() {
     <>
       <HeroSection />
       <LampDemo/>
+      <HeroVideoDialogDemo/>
       <AboutSection/>
       {/* <ProductsTab/> */}
       <GeminiComponent/>
