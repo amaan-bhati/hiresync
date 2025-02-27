@@ -10,39 +10,33 @@ export function AboutSection() {
 }
 export const projects = [
   {
-    title: "HireSync Overview",
+    title: "Upload Your Resume",
     description:
-      "Discover how HireSync connects job seekers with opportunities in a seamless manner.",
-    // link: "https://hiresync-ten.vercel.app",
+      "Begin your journey by uploading your resume to HireSync.",
   },
   {
-    title: "Features of HireSync",
+    title: "Resume Scanning",
     description:
-      "Explore the innovative features that make HireSync the go-to platform for job matching.",
-    // link: "https://hiresync-ten.vercel.app",
+      "HireSync scans your resume to extract key information and skills.",
   },
   {
-    title: "Success Stories",
+    title: "Summary Generation",
     description:
-      "Read testimonials from users who found their dream jobs through HireSync.",
-    // link: "https://hiresync-ten.vercel.app",
+      "A concise summary of your qualifications is generated for better job matching.",
   },
   {
-    title: "Join the Community",
+    title: "Job Opportunity Exploration",
     description:
-      "Become a part of the HireSync community and connect with like-minded professionals.",
-    // link: "https://hiresync-ten.vercel.app",
+      "HireSync explores the internet for relevant job opportunities tailored to your profile.",
   },
   {
-    title: "Get Started with HireSync",
+    title: "Multi-Site Job Search",
     description:
-      "Learn how to create your profile and start your job search with HireSync today.",
-    // link: "https://hiresync-ten.vercel.app",
+      "We search multiple websites to find the perfect job opportunity for you.",
   },
   {
-    title: "Contact Us",
+    title: "Perfect Job Match",
     description:
-      "Have questions? Reach out to our support team for assistance with HireSync.",
-    // link: "https://hiresync-ten.vercel.app",
+      "Finally, HireSync matches you with the perfect job and provides a direct link to apply.",
   },
 ];
