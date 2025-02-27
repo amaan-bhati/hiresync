@@ -1,5 +1,7 @@
 import { AboutSection } from "@/components/AboutSection";
 import { GeminiComponent } from "@/components/GeminiComponent";
+import { GlowingEffectSection } from "@/components/GlowingEffect";
+// import { GlobeSection } from "@/components/GlobeSection";
 import { HeroSection } from "@/components/HeroSection";
 import { HeroVideoDialogDemo } from "@/components/HeroVideoDialogDemo";
 import { LampDemo } from "@/components/LampDemo";
@@ -14,13 +16,16 @@ export default function Home() {
     <>
       <HeroSection />
       <LampDemo/>
+      <GeminiComponent/>
+      {/* <GlobeSection/> */}
       <HeroVideoDialogDemo/>
       <AboutSection/>
       {/* <ProductsTab/> */}
-      <GeminiComponent/>
-      <ParallaxSection/>
+      
+      {/* <ParallaxSection/> */}
      
-      <WobbleCardSection/>
+      {/* <WobbleCardSection/> */}
+      {/* <GlowingEffectSection/> */}
       <SignUpSection />
      
     </>
