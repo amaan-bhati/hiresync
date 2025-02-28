@@ -17,30 +17,14 @@ export function SignUpSection() {
       text: "easy",
     },
     {
-        text: "with",
-      },
+      text: "with",
+    },
     {
       text: "HireSync!",
       className: "bg-gradient-to-r from-[#6964f1] to-[#8d5cf5] text-transparent bg-clip-text",
     },
   ];
   return (
-    // <HeroHighlight>
-    // <motion.h1
-    //   initial={{
-    //     opacity: 0,
-    //     y: 20,
-    //   }}
-    //   animate={{
-    //     opacity: 1,
-    //     y: [20, -5, 0],
-    //   }}
-    //   transition={{
-    //     duration: 0.5,
-    //     ease: [0.4, 0.0, 0.2, 1],
-    //   }}
-    //   className="text-3xl px-4 md:text-4xl lg:text-5xl font-bold text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
-    // >
     <div className="flex flex-col items-center justify-center h-[20rem] bg-black">
       <p className="bg-gradient-to-r from-indigo-500 to-purple-500 dark:from-indigo-700 dark:to-purple-700 text-transparent bg-clip-text font-bold text-sm sm:text-lg">
         Get relevant and latest jobs based on your resume.
@@ -58,10 +42,9 @@ export function SignUpSection() {
           </button>
         </a>
       </div>
+      <footer className="mt-4 text-center text-lg text-gray-500">
+        Developed by <a href="https://amaanbhati.tech" className="text-blue-500 underline">Amaan</a> and <a href="https://www.pradipto.in/" className="text-blue-500 underline">Pradipto</a>
+      </footer>
     </div>
-
-    
-    // </motion.h1>
-    // </HeroHighlight>
   );
 }
